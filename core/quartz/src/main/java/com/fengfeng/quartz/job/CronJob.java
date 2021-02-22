@@ -7,7 +7,7 @@ public class CronJob implements Job {
 
     @Override
     public void execute(JobExecutionContext context) {
-        System.out.println("Cron job is running ...");
+//        System.out.println("Cron job is running ...");
     }
 
 }
