@@ -1,0 +1,19 @@
+server:
+  port: 80
+  servlet:
+    context-path:
+
+spring:
+  # 配置文件选择(dev，pro)
+  profiles:
+    　active: dev
+
+  # 国际化（消息源自动配置,springboot默认找出messages）
+  messages:
+    basename: i18n.messages
+  datasource:
+  　　driver-class-name: com.mysql.jdbc.Driver
+  　　url: jdbc:mysql://127.0.0.1:3306/mirror?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+  　　 username: test
+    　　password: 12345678
+    　　type: com.alibaba.druid.pool.DruidDataSource
